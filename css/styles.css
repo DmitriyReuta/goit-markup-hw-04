@@ -149,8 +149,8 @@ img {
 }
 
 .hero {
+  margin: 0 auto;
   max-width: 1440px;
-  min-height: 600px;
   background-color: var(--main-color);
   padding-top: 188px;
   padding-bottom: 188px;
@@ -208,7 +208,7 @@ img {
   gap: 24px;
 }
 
-.about-pic-container {  
+.about-pic-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -398,7 +398,7 @@ img {
 }
 
 .customer-item-link {
-  color: #8E8F99;;
+  color: #8e8f99;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -414,9 +414,8 @@ img {
 .customer-item-link:hover,
 .customer-item-link:focus {
   border-color: #404bbf;
-   color: #404bbf;
+  color: #404bbf;
 }
-
 
 .customers-title {
   line-height: 1.1;
@@ -458,7 +457,7 @@ img {
 }
 
 .social-media-text {
-  color: var(--white-color)
+  color: var(--white-color);
   margin-bottom: 16px;
   font-weight: 500;
   line-height: 1.5;
