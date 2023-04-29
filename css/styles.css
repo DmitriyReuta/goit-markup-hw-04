@@ -69,6 +69,8 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-link {
@@ -147,7 +149,7 @@ img {
 }
 
 .hero {
-  min-width: 1440px;
+  max-width: 1440px;
   min-height: 600px;
   background-color: var(--main-color);
   text-align: center;
@@ -207,11 +209,10 @@ img {
   gap: 24px;
 }
 
-.about-pic {
+.about-pic-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 264px;
   height: 112px;
   background: #f4f4fd;
   border-radius: 4px;
@@ -385,6 +386,10 @@ img {
 }
 
 .customer-item {
+}
+
+.customer-item-link {
+  fill: #8E8F99;;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -392,6 +397,17 @@ img {
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+}
+
+.customer-item-link:hover,
+.customer-item-link:focus {
+  border-color: #404bbf;
+  fill: #404bbf;
+}
+.customer-icon:hover,
+.customer-icon:focus {
+border-color: #404bbf;
+fill: #404bbf;
 }
 
 .customers-title {
@@ -433,8 +449,11 @@ img {
 }
 
 .social-media-text {
-  color: var(--light-color);
+  color: var(--white-color)
   margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .footer-media {
@@ -454,6 +473,11 @@ img {
   justify-content: center;
   align-items: center;
   gap: 16px;
+}
+
+.social-links:hover,
+.social-links:focus {
+  background-color: #31d0aa;
 }
 
 /* Portfolio */
