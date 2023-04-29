@@ -381,6 +381,7 @@ img {
 
 .customers {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .customer {
@@ -388,7 +389,6 @@ img {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .customer-item {
